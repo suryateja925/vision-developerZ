@@ -1,167 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision DeveloperZ</title>
+    <meta name="description"
+        content="Vision DeveloperZ - Transform from learner to professional developer with project-based learning">
+    <title>Vision DeveloperZ - Become a Real Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision DeveloperZ</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+
 <body>
 
+    <!-- Animated Background -->
+    <div class="background-animation">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
     <!-- Navbar -->
-    <nav class="navbar">
-        <h1 class="logo">Vision DeveloperZ</h1>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <h1 class="logo">
+                <span class="logo-icon">⚡</span>
+                Vision DeveloperZ
+            </h1>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#bootcamp" class="nav-link">Bootcamp</a>
+                <a href="https://forms.gle/rA8VJyCba6YKGQHy9" target="_blank" class="nav-cta">Get Started</a>
+            </div>
+        </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero">
-        <h2>Become a Real Developer, Not Just a Learner</h2>
-        <p class="tagline">Learn Practically. Build Professionally.</p>
-        
-        <div class="buttons">
-            <a href="https://forms.gle/rA8VJyCba6YKGQHy9" target="_blank">
-                <button>Start Free Demo</button>
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Free 7-Day Bootcamp Available
+            </div>
+            <h1 class="hero-title">
+                Become a <span class="gradient-text">Real Developer</span>,<br>
+                Not Just a Learner
+            </h1>
+            <p class="hero-subtitle">
+                Learn Practically. Build Professionally. Transform your coding journey with hands-on projects and
+                real-world experience.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="https://forms.gle/rA8VJyCba6YKGQHy9" target="_blank" class="btn btn-primary">
+                    <span>Start Free Demo</span>
+                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <button class="btn btn-secondary">
+                    <span>View Projects</span>
+                </button>
+            </div>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">100+</div>
+                    <div class="stat-label">Students Trained</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Projects Built</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">7 Days</div>
+                    <div class="stat-label">Free Bootcamp</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-header">
+            <h2 class="section-title">Why Vision DeveloperZ?</h2>
+            <p class="section-subtitle">Everything you need to become a professional developer</p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 4L4 10L16 16L28 10L16 4Z" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4 22L16 28L28 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M4 16L16 22L28 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <h3 class="feature-title">Project-Based Learning</h3>
+                <p class="feature-description">Learn coding by building real-world applications, not just watching
+                    tutorials. Get hands-on experience that matters.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path
+                            d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z"
+                            stroke="currentColor" stroke-width="2" />
+                        <path d="M16 10V16L20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <h3 class="feature-title">Beginner Friendly</h3>
+                <p class="feature-description">Step-by-step guidance designed especially for students starting from
+                    zero. No prior experience needed.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path
+                            d="M28 16C28 22.6274 22.6274 28 16 28C9.37258 28 4 22.6274 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z"
+                            stroke="currentColor" stroke-width="2" />
+                        <path d="M16 10L18 16L24 18L18 20L16 26L14 20L8 18L14 16L16 10Z" stroke="currentColor"
+                            stroke-width="2" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <h3 class="feature-title">Career Focused</h3>
+                <p class="feature-description">Build portfolio-ready projects and prepare for internships and jobs with
+                    industry-standard practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootcamp Section -->
+    <section class="bootcamp" id="bootcamp">
+        <div class="bootcamp-container">
+            <div class="section-header">
+                <h2 class="section-title">Free 7-Day Web Development Bootcamp</h2>
+                <p class="section-subtitle">Start your coding journey with our intensive practical bootcamp</p>
+            </div>
+
+            <div class="bootcamp-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h4>HTML Basics</h4>
+                        <p>Master the foundation of web development</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h4>CSS Fundamentals</h4>
+                        <p>Style your websites beautifully</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h4>Flexbox & Layout</h4>
+                        <p>Create responsive layouts with ease</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h4>Mini Project</h4>
+                        <p>Apply your skills to a real project</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">5</div>
+                    <div class="timeline-content">
+                        <h4>Portfolio Website</h4>
+                        <p>Build your professional portfolio</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">6</div>
+                    <div class="timeline-content">
+                        <h4>Hosting & Deployment</h4>
+                        <p>Launch your site to the world</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">7</div>
+                    <div class="timeline-content">
+                        <h4>Final Project</h4>
+                        <p>Complete your bootcamp masterpiece</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://forms.gle/ADMfShkaDCEjFZSr6" target="_blank" class="btn btn-primary btn-large">
+                <span>Register Now - It's Free!</span>
+                <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
             </a>
-            <button class="btn secondary">View Projects</button>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
-        <h2>Why Vision DeveloperZ?</h2>
-
-        <div class="feature-container">
-
-            <div class="feature-box">
-                <h3>Project-Based Learning</h3>
-                <p>Learn coding by building real-world applications, not just watching tutorials.</p>
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="mission-content">
+            <div class="mission-icon">
+                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                    <path
+                        d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z"
+                        stroke="currentColor" stroke-width="3" />
+                    <path d="M24 14L28 24L38 28L28 32L24 42L20 32L10 28L20 24L24 14Z" stroke="currentColor"
+                        stroke-width="3" stroke-linejoin="round" />
+                </svg>
             </div>
-
-            <div class="feature-box">
-                <h3>Beginner Friendly</h3>
-                <p>Step-by-step guidance designed especially for students starting from zero.</p>
-            </div>
-
-            <div class="feature-box">
-                <h3>Career Focused</h3>
-                <p>Build portfolio-ready projects and prepare for internships and jobs.</p>
-            </div>
-
+            <h2 class="mission-title">Our Mission</h2>
+            <p class="mission-description">
+                We aim to build confident developers who can create real-world projects and become job-ready.
+                Our hands-on approach ensures you don't just learn to code—you learn to think like a developer.
+            </p>
         </div>
     </section>
 
-    <!-- Bootcamp Section -->
-    <section class="bootcamp">
-        <h2>Free 7-Day Web Development Bootcamp</h2>
-        <p class="bootcamp-desc">
-            Start your coding journey with our intensive 7-day practical bootcamp.
-        </p>
-
-        <div class="bootcamp-days">
-            <div class="day">Day 1 – HTML Basics</div>
-            <div class="day">Day 2 – CSS Fundamentals</div>
-            <div class="day">Day 3 – Flexbox & Layout</div>
-            <div class="day">Day 4 – Mini Project</div>
-            <div class="day">Day 5 – Portfolio Website</div>
-            <div class="day">Day 6 – Hosting & Deployment</div>
-            <div class="day">Day 7 – Final Project</div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Vision DeveloperZ. Empowering the next generation of developers.</p>
         </div>
+    </footer>
 
-        <a href="https://forms.gle/ADMfShkaDCEjFZSr6" target="_blank" class="btn primary">
-            Register Now
-        </a>
-    </section>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
 
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>Our Mission</h2>
-        <p>
-            We aim to build confident developers who can create real-world projects and become job-ready.
-        </p>
-    </section>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.feature-card, .timeline-item, .stat-item').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
 
 </body>
+
 </html>
-
-
-    <!-- Navbar -->
-    <nav class="navbar">
-        <h1 class="logo">Vision DeveloperZ</h1>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Become a Real Developer, Not Just a Learner</h2>
-        <p class="tagline">Learn Practically. Build Professionally.</p>
-        
-        <div class="buttons">
-            <button class="btn primary">Start Free Bootcamp</button>
-            <button class="btn secondary">View Projects</button>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
-        <h2>Why Vision DeveloperZ?</h2>
-
-        <div class="feature-container">
-
-            <div class="feature-box">
-                <h3>Project-Based Learning</h3>
-                <p>Learn coding by building real-world applications, not just watching tutorials.</p>
-            </div>
-
-            <div class="feature-box">
-                <h3>Beginner Friendly</h3>
-                <p>Step-by-step guidance designed especially for students starting from zero.</p>
-            </div>
-
-            <div class="feature-box">
-                <h3>Career Focused</h3>
-                <p>Build portfolio-ready projects and prepare for internships and jobs.</p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- Bootcamp Section -->
-    <section class="bootcamp">
-        <h2>Free 7-Day Web Development Bootcamp</h2>
-        <p class="bootcamp-desc">
-            Start your coding journey with our intensive 7-day practical bootcamp.
-        </p>
-
-        <div class="bootcamp-days">
-            <div class="day">Day 1 – HTML Basics</div>
-            <div class="day">Day 2 – CSS Fundamentals</div>
-            <div class="day">Day 3 – Flexbox & Layout</div>
-            <div class="day">Day 4 – Mini Project</div>
-            <div class="day">Day 5 – Portfolio Website</div>
-            <div class="day">Day 6 – Hosting & Deployment</div>
-            <div class="day">Day 7 – Final Project</div>
-        </div>
-
-        <a href="https://forms.gle/ADMfShkaDCEjFZSr6" target="_blank" class="btn primary">
-            Register Now
-        </a>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials">
-        <h2>Our Mission</h2>
-        <p>
-            We aim to build confident developers who can create real-world projects and become job-ready.
-        </p>
-    </section>
-
-</body>
-</html>
-
