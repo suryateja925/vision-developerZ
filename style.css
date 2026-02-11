@@ -73,6 +73,26 @@ body {
 .btn.secondary:hover {
     background-color: rgba(138, 43, 226, 0.1);
 }
+
+.demo-btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #4f46e5, #9333ea);
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.demo-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #4338ca, #7e22ce);
+}
+
 .features {
     padding: 80px 20px;
     background-color: #111;
