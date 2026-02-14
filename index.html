@@ -4,84 +4,380 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision DeveloperZ - Discover Your Skill. Build Your Future.</title>
     <meta name="description"
-        content="Vision DeveloperZ - Transform from learner to professional developer with project-based learning">
-    <title>Vision DeveloperZ - Become a Real Developer</title>
+        content="A next-generation skill development platform where students discover their potential, learn practically through projects, and grow professionally.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <!-- Animated Background -->
-    <div class="background-animation">
-        <div class="gradient-orb orb-1"></div>
-        <div class="gradient-orb orb-2"></div>
-        <div class="gradient-orb orb-3"></div>
-    </div>
-
-    <!-- Navbar -->
+    <!-- Navigation -->
     <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <h1 class="logo">
-                <span class="logo-icon">⚡</span>
-                Vision DeveloperZ
-            </h1>
-            <div class="nav-links">
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#bootcamp" class="nav-link">Bootcamp</a>
-                <a href="https://forms.gle/rA8VJyCba6YKGQHy9" target="_blank" class="nav-cta">Get Started</a>
+        <div class="container nav-container">
+            <div class="logo">
+                <img src="logo.svg" alt="Vision DeveloperZ Logo" class="logo-icon">
+                <span class="logo-text">Vision DeveloperZ</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="features.html" class="nav-link">Features</a></li>
+                <li><a href="testimonials.html" class="nav-link">Reviews</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-secondary">Login</button>
+                <a href="https://forms.gle/qpHgHrWsqdY3z6v97" target="_blank" style="text-decoration: none;">
+                    <button class="btn-primary">Get Started</button>
+                </a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="hero-content">
-            <div class="hero-badge">
-                <span class="badge-dot"></span>
-                Free 7-Day Bootcamp Available
-            </div>
-            <h1 class="hero-title">
-                Become a <span class="gradient-text">Real Developer</span>,<br>
-                Not Just a Learner
-            </h1>
-            <p class="hero-subtitle">
-                Learn Practically. Build Professionally. Transform your coding journey with hands-on projects and
-                real-world experience.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="https://forms.gle/rA8VJyCba6YKGQHy9" target="_blank" class="btn btn-primary">
-                    <span>Start Free Demo</span>
-                    <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </a>
-                <button class="btn btn-secondary">
-                    <span>View Projects</span>
-                </button>
-            </div>
-
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <div class="stat-number">100+</div>
-                    <div class="stat-label">Students Trained</div>
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🚀</span>
+                    <span>Next-Gen Learning Platform</span>
                 </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Projects Built</div>
+                <h1 class="hero-title">
+                    Discover Your Skill.<br>
+                    <span class="gradient-text">Build Your Future.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Master real-world skills through hands-on projects, track your progress,
+                    and unlock your professional potential with our AI-powered learning platform.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://forms.gle/qpHgHrWsqdY3z6v97" target="_blank" style="text-decoration: none;">
+                        <button class="btn-hero btn-primary">
+                            <span>Start Learning</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </a>
+                    <a href="skills.html" style="text-decoration: none;">
+                        <button class="btn-hero btn-secondary">
+                            <span>Explore Skills</span>
+                            <span class="btn-icon">✨</span>
+                        </button>
+                    </a>
                 </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <div class="stat-number">7 Days</div>
-                    <div class="stat-label">Free Bootcamp</div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="50000">0</h3>
+                        <p class="stat-label">Active Students</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="200">0</h3>
+                        <p class="stat-label">Skill Courses</p>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <h3 class="stat-number" data-target="95">0</h3>
+                        <p class="stat-label">Success Rate %</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Platform Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Why Vision DeveloperZ?</span>
+                <h2 class="section-title">Your Complete Skill Development <span class="gradient-text">Ecosystem</span>
+                </h2>
+                <p class="section-subtitle">Everything you need to discover, learn, and master skills that matter</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up" data-delay="0">
+                    <div class="card-icon">
+                        <span>🎯</span>
+                    </div>
+                    <h3 class="card-title">Identify Your Skills</h3>
+                    <p class="card-description">
+                        Take our AI-powered skill assessment to discover your strengths and hidden talents
+                    </p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="100">
+                    <div class="card-icon">
+                        <span>💡</span>
+                    </div>
+                    <h3 class="card-title">Learn Practically</h3>
+                    <p class="card-description">
+                        No boring theory. Learn by doing with interactive lessons and real-world scenarios
+                    </p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="200">
+                    <div class="card-icon">
+                        <span>🛠️</span>
+                    </div>
+                    <h3 class="card-title">Build Real Projects</h3>
+                    <p class="card-description">
+                        Create portfolio-worthy projects that showcase your skills to future employers
+                    </p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-delay="300">
+                    <div class="card-icon">
+                        <span>📊</span>
+                    </div>
+                    <h3 class="card-title">Track Performance</h3>
+                    <p class="card-description">
+                        Monitor your progress with detailed analytics and personalized learning insights
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill Categories Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Explore Categories</span>
+                <h2 class="section-title">Choose Your <span class="gradient-text">Learning Path</span></h2>
+                <p class="section-subtitle">From tech to creativity, find the perfect skill to master</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="zoom-in" data-delay="0">
+                    <div class="skill-card-glow"></div>
+                    <div class="skill-icon">💻</div>
+                    <h3 class="skill-title">Tech Skills</h3>
+                    <p class="skill-description">Web Dev, AI/ML, Data Science, Cybersecurity</p>
+                    <ul class="skill-list">
+                        <li>Python Programming</li>
+                        <li>Web Development</li>
+                        <li>Mobile Apps</li>
+                        <li>Cloud Computing</li>
+                    </ul>
+                    <button class="skill-btn">Explore →</button>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-delay="100">
+                    <div class="skill-card-glow"></div>
+                    <div class="skill-icon">🎨</div>
+                    <h3 class="skill-title">Creative Skills</h3>
+                    <p class="skill-description">Design, Video, Content, Digital Art</p>
+                    <ul class="skill-list">
+                        <li>UI/UX Design</li>
+                        <li>Video Editing</li>
+                        <li>Graphic Design</li>
+                        <li>3D Modeling</li>
+                    </ul>
+                    <button class="skill-btn">Explore →</button>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-delay="200">
+                    <div class="skill-card-glow"></div>
+                    <div class="skill-icon">💬</div>
+                    <h3 class="skill-title">Communication</h3>
+                    <p class="skill-description">Public Speaking, Writing, Presentation</p>
+                    <ul class="skill-list">
+                        <li>Public Speaking</li>
+                        <li>Content Writing</li>
+                        <li>Storytelling</li>
+                        <li>Negotiation</li>
+                    </ul>
+                    <button class="skill-btn">Explore →</button>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-delay="300">
+                    <div class="skill-card-glow"></div>
+                    <div class="skill-icon">🚀</div>
+                    <h3 class="skill-title">Career Skills</h3>
+                    <p class="skill-description">Leadership, Management, Strategy</p>
+                    <ul class="skill-list">
+                        <li>Project Management</li>
+                        <li>Leadership</li>
+                        <li>Time Management</li>
+                        <li>Critical Thinking</li>
+                    </ul>
+                    <button class="skill-btn">Explore →</button>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-delay="400">
+                    <div class="skill-card-glow"></div>
+                    <div class="skill-icon">💰</div>
+                    <h3 class="skill-title">Freelancing</h3>
+                    <p class="skill-description">Earn while you learn, build your brand</p>
+                    <ul class="skill-list">
+                        <li>Client Management</li>
+                        <li>Portfolio Building</li>
+                        <li>Pricing Strategy</li>
+                        <li>Personal Branding</li>
+                    </ul>
+                    <button class="skill-btn">Explore →</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Simple Process</span>
+                <h2 class="section-title">How <span class="gradient-text">Vision DeveloperZ</span> Works</h2>
+                <p class="section-subtitle">Your journey from beginner to expert in 5 simple steps</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right" data-delay="0">
+                    <div class="timeline-number">01</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">🔍</div>
+                        <h3 class="timeline-title">Discover Your Skill</h3>
+                        <p class="timeline-description">
+                            Take our comprehensive skill assessment to identify your strengths and interests
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item" data-aos="fade-left" data-delay="100">
+                    <div class="timeline-number">02</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">📚</div>
+                        <h3 class="timeline-title">Learn Step-by-Step</h3>
+                        <p class="timeline-description">
+                            Follow structured learning paths with interactive lessons and expert guidance
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item" data-aos="fade-right" data-delay="200">
+                    <div class="timeline-number">03</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">🛠️</div>
+                        <h3 class="timeline-title">Build Projects</h3>
+                        <p class="timeline-description">
+                            Apply your knowledge by creating real-world projects for your portfolio
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item" data-aos="fade-left" data-delay="300">
+                    <div class="timeline-number">04</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">📈</div>
+                        <h3 class="timeline-title">Track Performance</h3>
+                        <p class="timeline-description">
+                            Monitor your progress with detailed analytics and personalized feedback
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-connector"></div>
+                <div class="timeline-item" data-aos="fade-right" data-delay="400">
+                    <div class="timeline-number">05</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">🎓</div>
+                        <h3 class="timeline-title">Grow Professionally</h3>
+                        <p class="timeline-description">
+                            Get certified, connect with mentors, and land your dream opportunities
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Preview Section -->
+    <section class="dashboard-preview">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Your Learning Hub</span>
+                <h2 class="section-title">Powerful <span class="gradient-text">Student Dashboard</span></h2>
+                <p class="section-subtitle">Track everything in one beautiful interface</p>
+            </div>
+            <div class="dashboard-mockup" data-aos="fade-up">
+                <div class="dashboard-header">
+                    <div class="dashboard-user">
+                        <div class="user-avatar">👨‍🎓</div>
+                        <div class="user-info">
+                            <h4>Welcome back, Alex!</h4>
+                            <p>Let's continue your learning journey</p>
+                        </div>
+                    </div>
+                    <div class="dashboard-streak">
+                        <span class="streak-icon">🔥</span>
+                        <span class="streak-count">12 Day Streak</span>
+                    </div>
+                </div>
+                <div class="dashboard-stats">
+                    <div class="stat-box">
+                        <div class="stat-icon">📊</div>
+                        <div class="stat-info">
+                            <p class="stat-label">Overall Progress</p>
+                            <h3 class="stat-value">68%</h3>
+                        </div>
+                        <div class="progress-ring">
+                            <svg width="60" height="60">
+                                <circle cx="30" cy="30" r="25" class="progress-ring-circle"></circle>
+                                <circle cx="30" cy="30" r="25" class="progress-ring-fill"
+                                    style="stroke-dashoffset: 47;"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">✅</div>
+                        <div class="stat-info">
+                            <p class="stat-label">Projects Completed</p>
+                            <h3 class="stat-value">24</h3>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-info">
+                            <p class="stat-label">Skill Score</p>
+                            <h3 class="stat-value">8.5/10</h3>
+                        </div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-info">
+                            <p class="stat-label">Achievements</p>
+                            <h3 class="stat-value">15</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard-current">
+                    <h4 class="current-title">Continue Learning</h4>
+                    <div class="current-course">
+                        <div class="course-thumbnail">
+                            <span class="course-icon">💻</span>
+                        </div>
+                        <div class="course-info">
+                            <h5>Full Stack Web Development</h5>
+                            <p>Module 4: Building REST APIs</p>
+                            <div class="course-progress">
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 65%;"></div>
+                                </div>
+                                <span class="progress-text">65% Complete</span>
+                            </div>
+                        </div>
+                        <button class="continue-btn">Continue →</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,206 +385,280 @@
 
     <!-- Features Section -->
     <section class="features" id="features">
-        <div class="section-header">
-            <h2 class="section-title">Why Vision DeveloperZ?</h2>
-            <p class="section-subtitle">Everything you need to become a professional developer</p>
-        </div>
-
-        <div class="feature-grid">
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                        <path d="M16 4L4 10L16 16L28 10L16 4Z" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M4 22L16 28L28 22" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                        <path d="M4 16L16 22L28 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round" />
-                    </svg>
-                </div>
-                <h3 class="feature-title">Project-Based Learning</h3>
-                <p class="feature-description">Learn coding by building real-world applications, not just watching
-                    tutorials. Get hands-on experience that matters.</p>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                        <path
-                            d="M16 28C22.6274 28 28 22.6274 28 16C28 9.37258 22.6274 4 16 4C9.37258 4 4 9.37258 4 16C4 22.6274 9.37258 28 16 28Z"
-                            stroke="currentColor" stroke-width="2" />
-                        <path d="M16 10V16L20 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                    </svg>
-                </div>
-                <h3 class="feature-title">Beginner Friendly</h3>
-                <p class="feature-description">Step-by-step guidance designed especially for students starting from
-                    zero. No prior experience needed.</p>
-            </div>
-
-            <div class="feature-card">
-                <div class="feature-icon">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                        <path
-                            d="M28 16C28 22.6274 22.6274 28 16 28C9.37258 28 4 22.6274 4 16C4 9.37258 9.37258 4 16 4C22.6274 4 28 9.37258 28 16Z"
-                            stroke="currentColor" stroke-width="2" />
-                        <path d="M16 10L18 16L24 18L18 20L16 26L14 20L8 18L14 16L16 10Z" stroke="currentColor"
-                            stroke-width="2" stroke-linejoin="round" />
-                    </svg>
-                </div>
-                <h3 class="feature-title">Career Focused</h3>
-                <p class="feature-description">Build portfolio-ready projects and prepare for internships and jobs with
-                    industry-standard practices.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Bootcamp Section -->
-    <section class="bootcamp" id="bootcamp">
-        <div class="bootcamp-container">
+        <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Free 7-Day Web Development Bootcamp</h2>
-                <p class="section-subtitle">Start your coding journey with our intensive practical bootcamp</p>
+                <span class="section-badge">Platform Features</span>
+                <h2 class="section-title">Everything You Need to <span class="gradient-text">Succeed</span></h2>
+                <p class="section-subtitle">Powerful features designed for modern learners</p>
             </div>
-
-            <div class="bootcamp-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker">1</div>
-                    <div class="timeline-content">
-                        <h4>HTML Basics</h4>
-                        <p>Master the foundation of web development</p>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="flip-left" data-delay="0">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🎯</div>
                     </div>
+                    <h3 class="feature-title">Project-Based Learning</h3>
+                    <p class="feature-description">
+                        Learn by building real projects that you can showcase in your portfolio
+                    </p>
                 </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker">2</div>
-                    <div class="timeline-content">
-                        <h4>CSS Fundamentals</h4>
-                        <p>Style your websites beautifully</p>
+                <div class="feature-card" data-aos="flip-left" data-delay="100">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">📈</div>
                     </div>
+                    <h3 class="feature-title">Progress Tracking</h3>
+                    <p class="feature-description">
+                        Advanced analytics to monitor your learning journey and skill development
+                    </p>
                 </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker">3</div>
-                    <div class="timeline-content">
-                        <h4>Flexbox & Layout</h4>
-                        <p>Create responsive layouts with ease</p>
+                <div class="feature-card" data-aos="flip-left" data-delay="200">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">👥</div>
                     </div>
+                    <h3 class="feature-title">Community Support</h3>
+                    <p class="feature-description">
+                        Connect with thousands of learners, share knowledge, and grow together
+                    </p>
                 </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker">4</div>
-                    <div class="timeline-content">
-                        <h4>Mini Project</h4>
-                        <p>Apply your skills to a real project</p>
+                <div class="feature-card" data-aos="flip-left" data-delay="300">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🎓</div>
                     </div>
+                    <h3 class="feature-title">Expert Mentorship</h3>
+                    <p class="feature-description">
+                        Get guidance from industry professionals and experienced mentors
+                    </p>
                 </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker">5</div>
-                    <div class="timeline-content">
-                        <h4>Portfolio Website</h4>
-                        <p>Build your professional portfolio</p>
+                <div class="feature-card" data-aos="flip-left" data-delay="400">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">💼</div>
                     </div>
+                    <h3 class="feature-title">Portfolio Building</h3>
+                    <p class="feature-description">
+                        Create a stunning portfolio that impresses recruiters and clients
+                    </p>
                 </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker">6</div>
-                    <div class="timeline-content">
-                        <h4>Hosting & Deployment</h4>
-                        <p>Launch your site to the world</p>
+                <div class="feature-card" data-aos="flip-left" data-delay="500">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🏅</div>
                     </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-marker">7</div>
-                    <div class="timeline-content">
-                        <h4>Final Project</h4>
-                        <p>Complete your bootcamp masterpiece</p>
-                    </div>
+                    <h3 class="feature-title">Certifications</h3>
+                    <p class="feature-description">
+                        Earn industry-recognized certificates to boost your career prospects
+                    </p>
                 </div>
             </div>
-
-            <a href="https://forms.gle/ADMfShkaDCEjFZSr6" target="_blank" class="btn btn-primary btn-large">
-                <span>Register Now - It's Free!</span>
-                <svg class="btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
-                    <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round" />
-                </svg>
-            </a>
         </div>
     </section>
 
-    <!-- Mission Section -->
-    <section class="mission">
-        <div class="mission-content">
-            <div class="mission-icon">
-                <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                    <path
-                        d="M24 44C35.0457 44 44 35.0457 44 24C44 12.9543 35.0457 4 24 4C12.9543 4 4 12.9543 4 24C4 35.0457 12.9543 44 24 44Z"
-                        stroke="currentColor" stroke-width="3" />
-                    <path d="M24 14L28 24L38 28L28 32L24 42L20 32L10 28L20 24L24 14Z" stroke="currentColor"
-                        stroke-width="3" stroke-linejoin="round" />
-                </svg>
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Success Stories</span>
+                <h2 class="section-title">What Our <span class="gradient-text">Students Say</span></h2>
+                <p class="section-subtitle">Join thousands of successful learners</p>
             </div>
-            <h2 class="mission-title">Our Mission</h2>
-            <p class="mission-description">
-                We aim to build confident developers who can create real-world projects and become job-ready.
-                Our hands-on approach ensures you don't just learn to code—you learn to think like a developer.
-            </p>
+            <div class="testimonials-slider">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Vision DeveloperZ transformed my career! I went from zero coding knowledge to landing my
+                            first
+                            developer job in just 6 months. The project-based approach really works!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👨‍💻</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Rahul Sharma</h4>
+                                <p class="author-role">Full Stack Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "The UI/UX design course was incredible! The mentorship and real projects helped me build a
+                            portfolio that got me freelance clients immediately."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👩‍🎨</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Priya Patel</h4>
+                                <p class="author-role">UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Best learning platform for students! The dashboard keeps me motivated, and the community
+                            support is amazing. I've learned more here than in my entire college."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👨‍🎓</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Arjun Verma</h4>
+                                <p class="author-role">Computer Science Student</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "I discovered my passion for data science through Vision DeveloperZ. The step-by-step
+                            learning path
+                            and hands-on projects made complex topics easy to understand."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👩‍💼</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Sneha Reddy</h4>
+                                <p class="author-role">Data Analyst</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Vision DeveloperZ transformed my career! I went from zero coding knowledge to landing my
+                            first
+                            developer job in just 6 months. The project-based approach really works!"
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👨‍💻</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Rahul Sharma</h4>
+                                <p class="author-role">Full Stack Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "The UI/UX design course was incredible! The mentorship and real projects helped me build a
+                            portfolio that got me freelance clients immediately."
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">👩‍🎨</div>
+                            <div class="author-info">
+                                <h4 class="author-name">Priya Patel</h4>
+                                <p class="author-role">UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="cta-background">
+            <div class="cta-gradient"></div>
+            <div class="cta-particles">
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+                <div class="particle"></div>
+            </div>
+        </div>
+        <div class="container cta-container">
+            <div class="cta-content">
+                <h2 class="cta-title">Start Your Skill Journey Today</h2>
+                <p class="cta-subtitle">
+                    Join 50,000+ students who are already building their future with Vision DeveloperZ
+                </p>
+                <a href="https://forms.gle/qpHgHrWsqdY3z6v97" target="_blank" style="text-decoration: none;">
+                    <button class="cta-button">
+                        <span>Get Started Free</span>
+                        <span class="cta-button-glow"></span>
+                    </button>
+                </a>
+                <p class="cta-note">No credit card required • 7-day free trial</p>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2024 Vision DeveloperZ. Empowering the next generation of developers.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="logo.svg" alt="Vision DeveloperZ Logo" class="logo-icon">
+                        <span class="logo-text">Vision DeveloperZ</span>
+                    </div>
+                    <p class="footer-description">
+                        Empowering students to discover, learn, and master skills that shape their future.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1L1tgnvffg/" target="_blank" class="social-link"
+                            title="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg>
+                        </a>
+                        <a href="https://x.com/VisionDeve96585" target="_blank" class="social-link" title="X (Twitter)">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/_visiondeveloperz.18?utm_source=qr&igsh=czB3ZmdwenZqYzN1"
+                            target="_blank" class="social-link" title="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z" />
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vision-developerz-undefined-3a82193b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="social-link" title="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#skills">Skill Categories</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Community</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Student Forum</a></li>
+                        <li><a href="#">Discord Community</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-title">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Vision DeveloperZ. All rights reserved. Built with 💜 for students.</p>
+            </div>
         </div>
     </footer>
 
-    <script>
-        // Navbar scroll effect
-        window.addEventListener('scroll', () => {
-            const navbar = document.getElementById('navbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('scrolled');
-            } else {
-                navbar.classList.remove('scrolled');
-            }
-        });
-
-        // Smooth scroll for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Intersection Observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('fade-in');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.feature-card, .timeline-item, .stat-item').forEach(el => {
-            observer.observe(el);
-        });
-    </script>
-
+    <script src="script.js"></script>
 </body>
 
 </html>

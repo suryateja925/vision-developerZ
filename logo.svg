@@ -1,0 +1,41 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Circle with Gradient -->
+  <circle cx="20" cy="20" r="18" stroke="url(#gradient1)" stroke-width="2" fill="none"/>
+  
+  <!-- Eye Shape -->
+  <path d="M8 20C8 20 12 12 20 12C28 12 32 20 32 20C32 20 28 28 20 28C12 28 8 20 8 20Z" 
+        fill="url(#gradient2)" opacity="0.3"/>
+  
+  <!-- Iris -->
+  <circle cx="20" cy="20" r="6" fill="url(#gradient3)"/>
+  
+  <!-- Pupil -->
+  <circle cx="20" cy="20" r="3" fill="#0f172a"/>
+  
+  <!-- Light Reflection -->
+  <circle cx="22" cy="18" r="1.5" fill="white" opacity="0.8"/>
+  
+  <!-- Tech Lines -->
+  <line x1="4" y1="20" x2="8" y2="20" stroke="url(#gradient1)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="32" y1="20" x2="36" y2="20" stroke="url(#gradient1)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="20" y1="4" x2="20" y2="8" stroke="url(#gradient1)" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="20" y1="32" x2="20" y2="36" stroke="url(#gradient1)" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="gradient3">
+      <stop offset="0%" style="stop-color:#60a5fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+</svg>
